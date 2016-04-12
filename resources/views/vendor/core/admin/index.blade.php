@@ -3,7 +3,7 @@
 @section('title', $title)
 
 @section('main')
-{{ dd($module) }}
+
 @include($module . '::admin._index')
 
 
